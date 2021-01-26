@@ -3,12 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css/Sass -->
     <link rel="stylesheet" href="dist/css/app.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" 
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" 
+    crossorigin="anonymous" />
     <title>Teambit</title>
 </head>
 <body>
-    <div id="app" v-bind="exa">
-        <h1>{{exa}}</h1>
+    <div id="app">
+        <!-- Header -->
+        <header>
+            <!-- NavBar -->
+            <nav id="navbar">
+                <div class="container-nav">
+                    <div class="navbar-left">
+                        <img src="dist/img/logo-small.svg" alt="">
+                        <h1>Teambit</h1>
+                    </div>
+                    <div class="navbar-right">
+                        <div class="link-navbar" v-for="(links,index) in navbar">
+                            <a :href="[links.link]">{{links.name}}
+                                <i :class="[links.icon]"></i>
+                            </a>
+                        </div>
+                        <div class="btn-navbar">
+                            <a href="#">
+                                <img src="dist/img/google-logo.svg" alt="">
+                                Sign up</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
     </div>
     <script src="dist/js/app.js"></script>
 </body>

@@ -1,0 +1,16 @@
+@mixin display-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin display-flex {
+    display: flex;
+    flex-direction: row;
+}
+@mixin display-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}

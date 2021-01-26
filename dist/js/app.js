@@ -11,10 +11,26 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js");
 
-var app = new vue__WEBPACK_IMPORTED_MODULE_0__.default({
+var vm = new vue__WEBPACK_IMPORTED_MODULE_0__.default({
   el: "#app",
   data: {
-    exa: "ciao"
+    navbar: [{
+      name: "Solutions",
+      icon: "fas fa-chevron-down",
+      link: "#"
+    }, {
+      name: "Pricing",
+      icon: "fas",
+      link: "#"
+    }, {
+      name: "Blog",
+      icon: "fas",
+      link: "#"
+    }, {
+      name: "Sing in",
+      icon: "fas",
+      link: "#"
+    }]
   },
   methods: {}
 });

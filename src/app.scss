@@ -1,5 +1,21 @@
+// @use instead of @import for deprecation purpose
+@use "Partials/_common.scss";
+@use "Partials/_navbar.scss";
+@use "Partials/_header.scss";
+@use "Partials/_main.scss";
+@use "Partials/_footer.scss";
+// Google font roboto
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
 }
