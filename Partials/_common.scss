@@ -11,6 +11,14 @@
     display: flex;
     flex-direction: column;
 }
-body {
-    font-family: 'Roboto', sans-serif;
+
+$color-blue: #2C4792;
+$brown-text: #58402C;
+$light-brown: #FFE7D2;
+
+
+.container {
+    @include display-flex-column;
+    width: 70%;
+    margin: auto;
 }

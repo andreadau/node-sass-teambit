@@ -1,9 +1,9 @@
-// @use instead of @import for deprecation purpose
-@use "Partials/_common.scss";
-@use "Partials/_navbar.scss";
-@use "Partials/_header.scss";
-@use "Partials/_main.scss";
-@use "Partials/_footer.scss";
+// scss @import 
+@import "Partials/_common.scss";
+@import "Partials/_navbar.scss";
+@import "Partials/_header.scss";
+@import "Partials/_main.scss";
+@import "Partials/_footer.scss";
 // Google font roboto
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
@@ -13,9 +13,16 @@
     box-sizing: border-box;
 }
 body {
-    display: flex;
+    @include display-flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: $brown-text;
+}
+main {
+    width: 100%;
+    @include display-flex;
+    justify-content: center;
+    align-items: center;
 }

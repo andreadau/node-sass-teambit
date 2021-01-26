@@ -6,6 +6,7 @@
     height: 80px;
     border-bottom: 1px solid black;
     width: 70vw;
+    margin: auto
 }
 .navbar-left {
     @include display-flex-center;
@@ -29,14 +30,19 @@
 }
 .btn-navbar {
     @include display-flex-center;
-    border: 2px solid blue;
-    height: 50px;
-    border-radius: 5px;
     a {
-        color: blue;
+        border: 2px solid $color-blue;
+        color: $color-blue;
         font-weight: 700;
+        border-radius: 5px;
+        padding: 10px;
+        &:hover {
+            background-color: $color-blue;
+            color: white;
+        }
         img {
             height: 17px;
         }
     }
+
 }

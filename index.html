@@ -36,7 +36,64 @@
                     </div>
                 </div>
             </nav>
+            <!-- Jumbotron -->
+            <div id="jumbotron">
+                <div class="container-jumbo">
+                    <div class="jumbo-left">
+                        <h1>Understand, recognize and develop your people</h1>
+                        <h3>Teambit helps teams create a high performing culture with regular feedback.</h3>
+                        <div class="singUpBtn">
+                            <a href="#">
+                                <img src="dist/img/google-logo.svg" alt="">
+                                <span>Sing up with Google</span>
+                            </a>
+                            <span>or</span>
+                            <a href="#">
+                                <img src="dist/img/slack-logo.svg" alt="">
+                                <span>Sing up with Slack</span>
+                            </a>
+                        </div>
+                        <p>or use your email address <a href="#"><i class="fas fa-arrow-right"></i></a></p>
+                    </div>
+                    <div class="jumbo-right">
+                        <img src="dist/img/illustration-main.jpg" alt="">
+                    </div>
+                </div>
+            </div>
         </header>
+        <!-- /Header -->
+        <!-- Main -->
+        <main>
+            <!-- How It Works Section -->
+            <section class="bg-light-brown" id="HowItWorks">
+                <div class="container">
+                    <div class="how">
+                        <h1>Traditional People processes lead to disengagement and turnover</h1>
+                        <div class="how-card-container" >
+                            <div class="how-card" v-for="(card,index) in topCard">
+                                <img :src="[card.img]" alt="">
+                                <p>{{card.text}}</p>
+                            </div>
+                        </div>
+                        <img src="dist/img/before.png" alt="">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="how">
+                        <h1>It doesn't have to be like that. Teambit is a modern solution tha teammates love.</h1>
+                        <div class="how-card-container" >
+                            <div class="how-card" v-for="(card,index) in bottomCard">
+                                <img :src="[card.img]" alt="">
+                                <p>{{card.text}}</p>
+                            </div>
+                        </div>
+                        <img src="dist/img/after.png" alt="">
+                        <h1>Here is how it works
+                        </h1>
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
     <script src="dist/js/app.js"></script>
 </body>

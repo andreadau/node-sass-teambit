@@ -1,0 +1,46 @@
+@import "Partials/_common.scss";
+
+.bg-light-brown {
+    background-color: $light-brown;
+}
+.how {
+    @include display-flex-column;
+    text-align: center;
+    h1 {
+        margin-top: 50px;
+        max-width: 50%;
+        align-self: center;
+    }
+    img {
+        width: 250px;
+        align-self: center;
+    }
+}
+#HowItWorks {
+    width: 100%;
+}
+.how-card-container {
+    @include display-flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+.how-card{
+    @include display-flex-column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    img {
+        width: 200px;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+}
+#HowItWorks > div:nth-child(2) > div > div > div:nth-child(3) > img {
+    width: 70px;
+}
+#HowItWorks > div:nth-child(2) > div {
+    margin-top: 50px;
+    border-top: 2px solid #DEC6B1;
+    margin-bottom: 50px;
+}

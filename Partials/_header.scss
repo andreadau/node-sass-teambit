@@ -1,0 +1,44 @@
+@import "Partials/_common.scss";
+
+.container-jumbo  {
+    @include display-flex-center;
+    width: 70%;
+    height: 60vh;
+    margin: auto
+}
+.jumbo-left {
+    @include display-flex-column;
+    width: 50%;
+    h1 {
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+    h3 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
+.singUpBtn {
+    margin: 50px 0 30px ;
+    a {
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        background-color: $color-blue;
+        padding: 5px;
+        &:hover {
+            background-color: white;
+            border: 2px solid $color-blue;
+            color: $color-blue;
+        }
+    }
+    img {
+        height: 15px;
+    }
+}
+.jumbo-right {
+    width: 50%;
+    img {
+        width: 100%;
+    }
+}

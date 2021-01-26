@@ -1,10 +1,16 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap);
-body {
-  font-family: "Roboto", sans-serif;
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
 }
 
 .container-nav {
@@ -14,6 +20,7 @@ body {
   height: 80px;
   border-bottom: 1px solid black;
   width: 70vw;
+  margin: auto;
 }
 
 .navbar-left {
@@ -46,16 +53,137 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid blue;
-  height: 50px;
-  border-radius: 5px;
 }
 .btn-navbar a {
-  color: blue;
+  border: 2px solid #2C4792;
+  color: #2C4792;
   font-weight: 700;
+  border-radius: 5px;
+  padding: 10px;
+}
+.btn-navbar a:hover {
+  background-color: #2C4792;
+  color: white;
 }
 .btn-navbar a img {
   height: 17px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+
+.container-jumbo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 60vh;
+  margin: auto;
+}
+
+.jumbo-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.jumbo-left h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.jumbo-left h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.singUpBtn {
+  margin: 50px 0 30px;
+}
+.singUpBtn a {
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  background-color: #2C4792;
+  padding: 5px;
+}
+.singUpBtn a:hover {
+  background-color: white;
+  border: 2px solid #2C4792;
+  color: #2C4792;
+}
+.singUpBtn img {
+  height: 15px;
+}
+
+.jumbo-right {
+  width: 50%;
+}
+.jumbo-right img {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+
+.bg-light-brown {
+  background-color: #FFE7D2;
+}
+
+.how {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.how h1 {
+  margin-top: 50px;
+  max-width: 50%;
+  align-self: center;
+}
+.how img {
+  width: 250px;
+  align-self: center;
+}
+
+#HowItWorks {
+  width: 100%;
+}
+
+.how-card-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.how-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.how-card img {
+  width: 200px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+#HowItWorks > div:nth-child(2) > div > div > div:nth-child(3) > img {
+  width: 70px;
+}
+
+#HowItWorks > div:nth-child(2) > div {
+  margin-top: 50px;
+  border-top: 2px solid #DEC6B1;
+  margin-bottom: 50px;
 }
 
 * {
@@ -66,8 +194,18 @@ body {
 
 body {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #58402C;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
