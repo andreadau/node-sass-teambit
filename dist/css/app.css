@@ -13,6 +13,11 @@
   margin: auto;
 }
 
+.nav {
+  z-index: 2;
+  background-color: white;
+}
+
 .container-nav {
   display: flex;
   flex-direction: row;
@@ -87,8 +92,8 @@
     flex-direction: column;
     width: 70%;
     margin: auto;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     padding: 20px 0;
   }
   .navbar-right-media a {
@@ -135,6 +140,88 @@
     cursor: pointer;
   }
 }
+@media (min-width: 0px) and (max-width: 550px) {
+  .container-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    border-bottom: 1px solid black;
+    margin: auto;
+    z-index: 2;
+    width: auto;
+  }
+
+  .navbar-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-left h1 {
+    margin-left: 5px;
+    font-weight: 300;
+  }
+  .navbar-left img {
+    margin-left: 10px;
+  }
+
+  .navbar-right {
+    display: none;
+  }
+
+  .navbar-right-media {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .navbar-right-media a {
+    margin: 10px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #58402C;
+    font-weight: 700;
+  }
+
+  .link-navbar {
+    line-height: 2em;
+  }
+  .link-navbar a {
+    font-size: 20px;
+  }
+  .link-navbar i {
+    display: none;
+  }
+
+  .btn-navbar-media {
+    display: flex;
+    flex-direction: row;
+  }
+  .btn-navbar-media a {
+    border: 2px solid #2C4792;
+    color: #2C4792;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .btn-navbar-media a:hover {
+    background-color: #2C4792;
+    color: white;
+  }
+  .btn-navbar-media a img {
+    height: 17px;
+  }
+
+  .navbar-right-hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -147,8 +234,8 @@
   justify-content: center;
   align-items: center;
   width: 70%;
-  height: 60vh;
   margin: auto;
+  height: 600px;
 }
 
 .jumbo-left {
@@ -191,6 +278,133 @@
   width: 100%;
 }
 
+@media (min-width: 550px) and (max-width: 998px) {
+  .container-jumbo {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 550px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .jumbo-left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+  .jumbo-left h1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  .jumbo-left h3 {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .singUpBtn {
+    margin: 50px 0 30px;
+  }
+  .singUpBtn a {
+    font-size: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #2C4792;
+    padding: 10px;
+  }
+  .singUpBtn a:hover {
+    background-color: white;
+    border: 2px solid #2C4792;
+    color: #2C4792;
+  }
+  .singUpBtn img {
+    height: 15px;
+  }
+
+  .jumbo-right {
+    width: 100%;
+    text-align: center;
+  }
+  .jumbo-right img {
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 0px) and (max-width: 550px) {
+  .container-jumbo {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 550px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .jumbo-left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+  .jumbo-left h1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    padding-top: 50px;
+  }
+  .jumbo-left h3 {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .jumbo-left p {
+    font-size: 15px;
+  }
+
+  .singUpBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 30px;
+    font-size: 10px;
+  }
+  .singUpBtn a {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #2C4792;
+    padding: 5px;
+  }
+  .singUpBtn a:hover {
+    background-color: white;
+    border: 2px solid #2C4792;
+    color: #2C4792;
+  }
+  .singUpBtn img {
+    height: 15px;
+  }
+
+  .singUpBtn > span:nth-child(2) {
+    padding: 0 5px;
+  }
+
+  .jumbo-right {
+    width: 100%;
+    text-align: center;
+  }
+  .jumbo-right img {
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -252,6 +466,97 @@
   margin-bottom: 50px;
 }
 
+@media (min-width: 550px) and (max-width: 998px) {
+  .how {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .how h1 {
+    margin-top: 50px;
+    max-width: 99%;
+    align-self: center;
+  }
+  .how img {
+    width: 250px;
+    align-self: center;
+  }
+
+  .how-card-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  .how-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  .how-card img {
+    width: 120px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+
+  #HowItWorks > div:nth-child(2) > div > div > div:nth-child(3) > img {
+    width: 50px;
+  }
+
+  .last-img {
+    padding-top: 50px;
+  }
+}
+@media (min-width: 0px) and (max-width: 550px) {
+  .how {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .how h1 {
+    margin-top: 50px;
+    max-width: 99%;
+    align-self: center;
+  }
+  .how img {
+    width: 250px;
+    align-self: center;
+  }
+
+  .how-card-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  .how-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  .how-card img {
+    width: 100px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+
+  #HowItWorks > div:nth-child(2) > div > div > div:nth-child(3) > img {
+    width: 50px;
+  }
+
+  .last-img {
+    padding-top: 20px;
+    width: 150px !important;
+  }
+}
 * {
   margin: 0;
   padding: 0;
