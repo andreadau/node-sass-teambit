@@ -48,9 +48,10 @@ let vm = new Vue({
                 img: "dist/img/safe.png",
                 text: "It creates a safe environment for dialog"
             },
-        ]
+        ],
+        hamburgerToggle: false,
     },
     methods: {
-
+        
     }
 });

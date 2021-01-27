@@ -50,7 +50,8 @@ var vm = new vue__WEBPACK_IMPORTED_MODULE_0__.default({
     }, {
       img: "dist/img/safe.png",
       text: "It creates a safe environment for dialog"
-    }]
+    }],
+    hamburgerToggle: false
   },
   methods: {}
 });

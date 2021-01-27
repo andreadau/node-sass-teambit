@@ -34,7 +34,25 @@
                                 Sign up</a>
                         </div>
                     </div>
+                    <div class="navbar-right-hamburger" @click="hamburgerToggle = !hamburgerToggle">
+                        <i class="fas fa-bars fa-2x" v-if="!hamburgerToggle"></i>
+                        <i class="fas fa-times fa-2x" v-else></i>
+                    </div>
                 </div>
+                    <div v-if="hamburgerToggle">
+                        <div class="navbar-right-media">
+                            <div class="link-navbar" v-for="(links,index) in navbar">
+                                <a :href="[links.link]">{{links.name}}
+                                    <i :class="[links.icon]"></i>
+                                </a>
+                            </div>
+                            <div class="btn-navbar-media">
+                                <a href="#">
+                                    <img src="dist/img/google-logo.svg" alt="">
+                                    Sign up</a>
+                            </div>
+                        </div>
+                    </div>
             </nav>
             <!-- Jumbotron -->
             <div id="jumbotron">
