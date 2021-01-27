@@ -540,6 +540,28 @@
   width: 100%;
 }
 
+#see {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+#see h1 {
+  padding-top: 50px;
+}
+#see h1 img {
+  width: 20px;
+}
+
+.img-see {
+  width: 60%;
+  text-align: center;
+  align-self: center;
+  margin-top: 50px;
+}
+
 @media (min-width: 550px) and (max-width: 998px) {
   .how {
     display: flex;
@@ -761,7 +783,7 @@
   }
   .left-feedback-right img {
     width: 100%;
-    margin-top: 10%;
+    margin-top: 50px;
   }
   .left-feedback-right p {
     padding-bottom: 20px;
