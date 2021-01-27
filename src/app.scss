@@ -22,7 +22,7 @@ body {
 }
 main {
     width: 100%;
-    @include display-flex;
+    @include display-flex-column;
     justify-content: center;
     align-items: center;
 }
