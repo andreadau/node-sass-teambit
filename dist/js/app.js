@@ -51,6 +51,22 @@ var vm = new vue__WEBPACK_IMPORTED_MODULE_0__.default({
       img: "dist/img/safe.png",
       text: "It creates a safe environment for dialog"
     }],
+    footerLink: [{
+      title: "Product",
+      links: ["Feedback", "Surveys", "Reviews", "Praise", "Slack", "Integration", "Schedule a", "demo", "Pricing"]
+    }, {
+      title: "About",
+      links: ["Feedback", "Surveys", "Reviews", "Praise"]
+    }, {
+      title: "Connect",
+      links: ["Feedback", "Surveys", "Reviews", "Praise"]
+    }, {
+      title: "Lobs",
+      links: ["Feedback", "Surveys", "Reviews", "Praise"]
+    }, {
+      title: "From the blog",
+      links: ["How to change your company culture: a four-step framework", "How teams can be more productive by killing 8-hour workday", "How to build high performing team inspired by nature", "View All"]
+    }],
     hamburgerToggle: false
   },
   methods: {}

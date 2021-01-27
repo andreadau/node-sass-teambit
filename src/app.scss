@@ -26,3 +26,8 @@ main {
     justify-content: center;
     align-items: center;
 }
+footer {
+    @include display-flex;
+    justify-content: center;
+    line-height: 2em;
+}
