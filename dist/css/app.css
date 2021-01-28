@@ -60,14 +60,14 @@
   align-items: center;
 }
 .btn-navbar a {
-  border: 2px solid #2C4792;
-  color: #2C4792;
+  border: 2px solid #922C2C;
+  color: #922C2C;
   font-weight: 700;
   border-radius: 5px;
   padding: 10px;
 }
 .btn-navbar a:hover {
-  background-color: #2C4792;
+  background-color: #922C2C;
   color: white;
 }
 .btn-navbar a img {
@@ -119,14 +119,14 @@
     flex-direction: row;
   }
   .btn-navbar-media a {
-    border: 2px solid #2C4792;
-    color: #2C4792;
+    border: 2px solid #922C2C;
+    color: #922C2C;
     font-weight: 700;
     border-radius: 5px;
     padding: 10px;
   }
   .btn-navbar-media a:hover {
-    background-color: #2C4792;
+    background-color: #922C2C;
     color: white;
   }
   .btn-navbar-media a img {
@@ -201,14 +201,14 @@
     flex-direction: row;
   }
   .btn-navbar-media a {
-    border: 2px solid #2C4792;
-    color: #2C4792;
+    border: 2px solid #922C2C;
+    color: #922C2C;
     font-weight: 700;
     border-radius: 5px;
     padding: 10px;
   }
   .btn-navbar-media a:hover {
-    background-color: #2C4792;
+    background-color: #922C2C;
     color: white;
   }
   .btn-navbar-media a img {
@@ -259,13 +259,13 @@
   border-radius: 5px;
   text-decoration: none;
   color: white;
-  background-color: #2C4792;
+  background-color: #922C2C;
   padding: 5px;
 }
 .singUpBtn a:hover {
   background-color: white;
-  border: 2px solid #2C4792;
-  color: #2C4792;
+  border: 2px solid #922C2C;
+  color: #922C2C;
 }
 .singUpBtn img {
   height: 15px;
@@ -312,13 +312,13 @@
     border-radius: 5px;
     text-decoration: none;
     color: white;
-    background-color: #2C4792;
+    background-color: #922C2C;
     padding: 10px;
   }
   .singUpBtn a:hover {
     background-color: white;
-    border: 2px solid #2C4792;
-    color: #2C4792;
+    border: 2px solid #922C2C;
+    color: #922C2C;
   }
   .singUpBtn img {
     height: 15px;
@@ -379,13 +379,13 @@
     border-radius: 5px;
     text-decoration: none;
     color: white;
-    background-color: #2C4792;
+    background-color: #922C2C;
     padding: 5px;
   }
   .singUpBtn a:hover {
     background-color: white;
-    border: 2px solid #2C4792;
-    color: #2C4792;
+    border: 2px solid #922C2C;
+    color: #922C2C;
   }
   .singUpBtn img {
     height: 15px;
@@ -413,7 +413,7 @@
 }
 
 .bg-light-brown {
-  background-color: #FFE7D2;
+  background-color: #93C7D0;
 }
 
 .how {
